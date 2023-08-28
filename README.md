@@ -59,10 +59,8 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 [Hyperlink text](https://www.redbull.com/car-en/gaming-among-us-popularity)      
 
 ### Test Image
-![Pikachu dies](![CoolClips_peop3337](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/ae1f350e-1c9d-4603-bcb8-e568cb4da344)
-.png)  
+![Pikachu dies](![CoolClips_peop3337](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/ae1f350e-1c9d-4603-bcb8-e568cb4da344.png)  
 
 ### Test GIF
-![Pikachu dies again](![0dTPMn](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/dd7e89aa-cf23-444e-a1d4-cb937cf3eee4)
-.png)  
+![Pikachu dies again](![0dTPMn](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/dd7e89aa-cf23-444e-a1d4-cb937cf3eee4.png)  
 
