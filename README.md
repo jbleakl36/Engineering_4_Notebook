@@ -62,3 +62,5 @@ Your readme will have various images and gifs on it. Upload a test image and tes
  [Hyperlink text](raspberry-pi/)
 
 ### Test GIF
+![Pikachu dies](![CoolClips_peop3337](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/b1074cfb-f1cc-4734-849a-47aa273cdd51)
+) 
