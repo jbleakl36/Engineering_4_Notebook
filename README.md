@@ -29,7 +29,26 @@ Give me a link to your code. [Something like this](https://github.com/millerm22/
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
-&nbsp;
+## Raspberry Pi Pico Introduction
+
+### Assignment Description
+
+We were tasked with our first usage of the pico. We were told to create code that made it's led blink. Furthermore we were tasked with  installing a plethora of add-ons so that we can be fully ready (coding wise) for engineering 4.
+
+### Evidence 
+
+https://iad.cdn.nv.instructuremedia.com/originals/o-52TLZN7UMcqafjYCqDzbSEVyDfiL8pEn/transcodings/t-539mNVqHdMku1Mc2vhbSRokPPmBtCNRk.mp4?&Expires=1694182799&Signature=TMsGiLxAXvQ99iV2gE5xxqTmTW1pqvxG8BCVtLrYbha1Pa3wCCSvQmM1tJpY67cdFzlhXHm2-F9GvLIl1XvdOEPsGz2vrGDPA~bzBObWVe2iyTNmEvIovnp6arrY3j4AyoKlvKnqGm6nSIxce3HBK7mk6IXsSvJwPgOMpy9iiac1U2aseY36qV2XdsnpoUSxV0nS9KwnTdC-uybbkOlIg3dvqy3iSA5rzqbGqpCRG0rEsBCi7Gc2I121uM5jgKW058PkmHnCamkyYdFFwMpb09EpOZrIijhY11sbjHYkcUvXUN4iwuHBM5YAMbLOHekwLLH9VXtG4EUfD3zBECHaVQ__&Key-Pair-Id=APKAJLP4NHW7VFATZNDQ
+
+### Wiring
+
+It's just the pico on a breadboard. 
+
+### Code
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/LED_blink.py
+
+### Reflection
+
+The assingment was inherently simple, but challanges did arise. First off setting up everything was a bit of a hassle. There were a lot of moving pieces to follow. Luckily though the instructions were clear and easy to follow. The LED binking process was straightforward. I just need to refresh on my coding knowledge.
 
 ## Onshape_Assignment_Template
 
