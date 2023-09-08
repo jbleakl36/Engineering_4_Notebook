@@ -29,6 +29,25 @@ https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/LED_b
 
 The assingment was inherently simple, but challanges did arise. First off setting up everything was a bit of a hassle. There were a lot of moving pieces to follow. Luckily though the instructions were clear and easy to follow. The LED binking process was straightforward. I just need to refresh on my coding knowledge.
 
+
+##  Launch Pad part 1
+
+### Assignment Description
+
+
+### Evidence
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/7757d7f3-c398-4efb-9771-40724eec4372
+
+
+### Wiring
+Literally zero wiring required.
+
+### Code
+
+### Reflection
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
