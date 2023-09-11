@@ -46,7 +46,9 @@ Literally zero wiring required.
 ### Code
 https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/launchPad1
 ### Reflection
-
+This assigment was my first real re-introduction into coding again. I learned the use of the range function 
+and discovered that you should print (10-x) instead of ((x-1), x=10). That was the one thing preventing me from progress.
+Make sure to ask your friends who got the assingment working, they probably have a few tips they can give you.
 
 ## Onshape_Assignment_Template
 
