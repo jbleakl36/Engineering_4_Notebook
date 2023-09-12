@@ -29,6 +29,27 @@ https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/LED_b
 
 The assingment was inherently simple, but challanges did arise. First off setting up everything was a bit of a hassle. There were a lot of moving pieces to follow. Luckily though the instructions were clear and easy to follow. The LED binking process was straightforward. I just need to refresh on my coding knowledge.
 
+
+##  Launch Pad part 1
+
+### Assignment Description
+
+
+### Evidence
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/7757d7f3-c398-4efb-9771-40724eec4372
+
+
+### Wiring
+Literally zero wiring required.
+
+### Code
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/launchPad1
+### Reflection
+This assigment was my first real re-introduction into coding again. I learned the use of the range function 
+and discovered that you should print (10-x) instead of ((x-1), x=10). That was the one thing preventing me from progress.
+Make sure to ask your friends who got the assingment working, they probably have a few tips they can give you.
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
