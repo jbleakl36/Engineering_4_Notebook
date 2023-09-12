@@ -1,0 +1,23 @@
+# type:ignore
+import time # Getting time established
+import digitalio
+import board
+
+RedLED = digitalio.DigitalInOut(board.GP12) # Confirmation
+RedLED.direction = digitalio.Direction.OUTPUT # Led is activated
+GreenLED = digitalio.DigitalInOut(board.GP11) # Confirmation
+GreenLED.direction = digitalio.Direction.OUTPUT # Led is activated
+
+
+VAR= 10
+
+print ('ready 4 liftoff??')
+for x in range(10): # keeps countdown in line no 11s and what-not
+  print(10-x) # subtracting 1 every time
+  VAR= x
+  RedLED.value = True
+  time.sleep(1) # 1 sec delay
+  
+if VAR == 0:
+GreenLED.value = True
+print('LIFTOFF!!!') # LIFTOFF!!!
