@@ -33,7 +33,8 @@ The assingment was inherently simple, but challanges did arise. First off settin
 ##  Launch Pad part 1
 
 ### Assignment Description
-
+We were tasked with creating a countdown from 10 to 1 and at 0 we announce LIFTOFF! Also at the start we were tasked to
+announce the question "Ready for liftoff?"
 
 ### Evidence
 
