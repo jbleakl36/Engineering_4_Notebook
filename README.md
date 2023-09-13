@@ -80,6 +80,31 @@ the only other problem I had was writing a proper "if" statement, I forgot the "
 
 
 
+##  Launch Pad part 3
+
+### Assignment Description
+We were tasked to incorperate a button that starts the entire code from the last two parts.
+
+### Evidence
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/f5446eb3-611d-4981-b285-10241400cae2
+
+### Wiring
+
+
+
+
+
+### Code
+
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad3
+
+### Reflection
+
+
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
