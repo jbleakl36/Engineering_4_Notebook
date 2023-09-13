@@ -33,7 +33,8 @@ The assingment was inherently simple, but challanges did arise. First off settin
 ##  Launch Pad part 1
 
 ### Assignment Description
-
+We were tasked with creating a countdown from 10 to 1 and at 0 we announce LIFTOFF! Also at the start we were tasked to
+announce the question "Ready for liftoff?"
 
 ### Evidence
 
@@ -49,6 +50,35 @@ https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/launc
 This assigment was my first real re-introduction into coding again. I learned the use of the range function 
 and discovered that you should print (10-x) instead of ((x-1), x=10). That was the one thing preventing me from progress.
 Make sure to ask your friends who got the assingment working, they probably have a few tips they can give you.
+
+
+##  Launch Pad part 2
+
+### Assignment Description
+This assignment adds to part 1, we were tasked with adding a red and green ight to the mix. The red light blinks every second
+during countdown, while the green light blinks at liftoff.
+
+### Evidence
+
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/25c4f317-ea2c-4034-b265-35092e9cbe3d
+
+
+
+### Wiring
+
+![Screenshot 2023-09-12 102330](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/ecf8e1a9-95c3-441e-8ecb-4bb63ffff780)
+
+
+### Code
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad2
+
+### Reflection
+I found the addition of the lights to be slightly challanging. Although with some help the vision became clear.
+I had trouble with my green LED because of the fact that it wasn't turning on (because it was dead). But after that
+the only other problem I had was writing a proper "if" statement, I forgot the ":" at the end.
+
+
 
 ## Onshape_Assignment_Template
 
