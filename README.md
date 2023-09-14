@@ -107,6 +107,30 @@ was vital for a proper redoing of some of my code. I learned some cool tidbits a
 understanding of the coding language. Ask for help if you need it, trust me it's worth it.
 
 
+##  Launch Pad part 4
+
+### Assignment Description
+We were tasked to activate a sevro and have it rotate 180 degrees at liftoff on top of the previous
+three steps.
+
+### Evidence
+
+
+
+### Wiring
+
+
+
+
+
+### Code
+
+
+### Reflection
+
+
+
+
 
 
 ## Onshape_Assignment_Template
