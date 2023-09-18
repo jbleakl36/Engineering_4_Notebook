@@ -1,0 +1,47 @@
+# type:ignore
+import time # Getting time established
+import digitalio # getting the program established
+import board # Getting Pico established
+import pwmio
+from adafruit_motor import servo # estabishing servo
+pwm_servo = pwmio.PWMOut(board.GP10, duty_cycle=2 ** 15, frequency=50)
+servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500) # Establising servo range
+servo1.angle = 180
+
+RedLED = digitalio.DigitalInOut(board.GP12) # Confirmation
+RedLED.direction = digitalio.Direction.OUTPUT # Led is activated
+GreenLED = digitalio.DigitalInOut(board.GP11) # Confirmation
+GreenLED.direction = digitalio.Direction.OUTPUT # Led is activated
+Button = digitalio.DigitalInOut(board.GP13) # Confirmation
+Button.direction = digitalio.Direction.INPUT # Button is activated
+Button.pull = digitalio.Pull.DOWN # Pin reads "true" for button
+VAR= 10
+
+while True: # Loop
+  if Button.value == True:
+    print ('ready 4 liftoff??')
+    for x in range(10): # keeps countdown in line no 11s and what-not
+      print(10-x) # subtracting 1 every time
+      VAR= x
+      RedLED.value = True
+      time.sleep(.5) # Red light is blinking
+      RedLED.value = False
+      time.sleep(.5) # Part of the blink as well
+      if VAR == 7: # when it is 3 sec till Liftoff
+        for angle in range(0,60):
+          servo1.angle = angle
+          time.sleep(1/60)
+      if VAR == 8: # when it is 2 sec till Liftoff
+        for angle in range(61,120):
+          servo1.angle = angle
+          time.sleep(1/60)
+       
+  if VAR == 9:
+        GreenLED.value = True
+        print('LIFTOFF!!!') # LIFTOFF!!!      
+        time.sleep(5) # Hold light for 5 sec
+        break # end loop
+   for angle in range(121,180):
+            servo1.angle = angle
+            time.sleep(1/60)
+       
