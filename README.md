@@ -80,6 +80,59 @@ the only other problem I had was writing a proper "if" statement, I forgot the "
 
 
 
+##  Launch Pad part 3
+
+### Assignment Description
+We were tasked to incorperate a button that starts the entire code from the last two parts.
+
+### Evidence
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/f5446eb3-611d-4981-b285-10241400cae2
+
+### Wiring
+
+
+![Screenshot 2023-09-13 104229](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/1d2f5411-e085-4665-b7b0-52683f621c18)
+
+
+
+### Code
+
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad3
+
+### Reflection
+This assingment was tricky at first, learning how to use a button again was definetely a blast
+from the past. I redid parts of my code with the help of some friends, they had knowledge that
+was vital for a proper redoing of some of my code. I learned some cool tidbits and got a larger
+understanding of the coding language. Ask for help if you need it, trust me it's worth it.
+
+
+##  Launch Pad part 4
+
+### Assignment Description
+We were tasked to activate a sevro and have it rotate 180 degrees at liftoff on top of the previous
+three steps.
+
+### Evidence
+
+
+
+### Wiring
+
+
+
+
+
+### Code
+
+
+### Reflection
+
+
+
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
