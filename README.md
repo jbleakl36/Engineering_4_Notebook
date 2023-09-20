@@ -117,18 +117,25 @@ three steps.
 
 
 
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/bc85481e-87f3-4b37-838e-b806fd88d9df
+
+
+
 ### Wiring
 
 
+![W rizz](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/f760b84a-7678-4946-9506-0af155fbee21)
 
 
 
 ### Code
 
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/launchpad4normal
 
 ### Reflection
-
-
+As of writing this, I have not yet done the spicy version. I feel close to completeing it but I'm falling behind
+schedule. The non-spicy version of the assingment is incredibly easy. Just set up your servo and make the angle go
+to zero when it is liftoff. I hope to return to the spicy version soon.
 
 
 
