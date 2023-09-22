@@ -8,9 +8,9 @@ scl_pin = (board.GP15)
 i2c = busio.I2C(scl_pin, sda_pin) # establishing i2c
 mpu = adafruit_mpu6050.MPU6050(i2c) # connecting i2c to pico
 
-x = 3
 
-while x == 3:
+
+while True:
  print(mpu.acceleration) # prints all 3 coordinates
  time.sleep(.1)
 
