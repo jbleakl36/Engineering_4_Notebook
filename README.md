@@ -137,7 +137,97 @@ As of writing this, I have not yet done the spicy version. I feel close to compl
 schedule. The non-spicy version of the assingment is incredibly easy. Just set up your servo and make the angle go
 to zero when it is liftoff. I hope to return to the spicy version soon.
 
+##  Crash Avoidance Part 1
 
+### Assignment Description
+We were tasked with using an accelerometer to report the x, y and z values to the serial monitor.
+### Evidence
+
+
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/f4f0b12a-c54a-4914-ab18-9c694ec53293
+
+
+
+### Wiring
+
+![Crash Acc 1](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/2e22b971-111a-439c-bdad-39bf9151d937)
+
+
+### Code
+
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/crashavoidance1
+
+### Reflection
+The task was simple. The assingment told me everything I needed to know. I didn't use an f string despite my intrege with
+them. The hardest part was finding a method to loop the code. I did a simple x = 3, while x == 3 loop, it did the job well.
+
+
+##  Crash Avoidance Part 1
+
+### Assignment Description
+
+### Evidence
+
+
+
+### Wiring
+
+
+### Code
+
+### Reflection
+
+
+
+##  Crash Avoidance Part 1
+
+### Assignment Description
+
+### Evidence
+
+
+
+### Wiring
+
+
+### Code
+
+### Reflection
+
+
+
+##  Crash Avoidance Part 1
+
+### Assignment Description
+
+### Evidence
+
+
+
+### Wiring
+
+
+### Code
+
+### Reflection
+
+
+
+##  Crash Avoidance Part 1
+
+### Assignment Description
+
+### Evidence
+
+
+
+### Wiring
+
+
+### Code
+
+### Reflection
 
 
 ## Onshape_Assignment_Template
