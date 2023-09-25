@@ -173,6 +173,7 @@ https://cvilleschools.instructure.com/courses/40384/assignments/539319/submissio
 
 ### Wiring
 
+![Crash Acc 2](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/8afc3c85-133c-4a48-a808-55c0af5ce57c)
 
 ### Code
 
