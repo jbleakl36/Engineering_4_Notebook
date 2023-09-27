@@ -1,0 +1,39 @@
+# type:ignore
+import time
+import adafruit_mpu6050 # importing various programs
+import busio
+import board
+import digitalio
+import terminalio
+import displayio
+from adafruit_display_text import label
+import adafruit_displayio_ssd1306
+displayio.release_displays() 
+
+sda_pin = (board.GP14) #Assinging the location of the pin
+scl_pin = (board.GP15)
+i2c = busio.I2C(scl_pin, sda_pin) # establishing i2c
+display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP16)
+display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64) # Defining OLED Screen
+mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68) # connecting i2c to pico
+RedLED = digitalio.DigitalInOut(board.GP2) # Confirmation
+RedLED.direction = digitalio.Direction.OUTPUT # Led is activated
+RedLED.value = False
+
+splash = displayio.Group()
+
+title = "ANGULAR VELOCITY"
+
+text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
+splash.append(text_area)
+
+display.show(splash)
+
+while True:
+    print(f"X:{mpu.acceleration[0]:.3f} Y:{mpu.acceleration[1]:.3f} Z:{mpu.acceleration[2]:.3f}") # prints all 3 coordinates
+    time.sleep(.1)
+    if mpu.acceleration[2] < 1 and mpu.acceleration[2] > -1:
+        RedLED.value = True
+    else:
+            if not mpu.acceleration[2] < 1 and mpu.acceleration[2] > -1:
+                RedLED.value = False
