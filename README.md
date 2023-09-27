@@ -184,10 +184,11 @@ This is the first assignment where you don't pug the pico to the computer. I fou
 I put it in the wrong way putting ground into power and such. I learned how to use f strings which boaded well for
 me. It was exciting to see this project finally work! We fixed other wiring issues that plauged my progress too.
 
-##  Crash Avoidance Part 1
+##  Crash Avoidance Part 3
 
 ### Assignment Description
-
+We were tasked with utilizing an OLED screen to broadcast the 3 various x, y, and z coordinates. Values are required
+to be rounded to only 3 decimals.
 ### Evidence
 
 
