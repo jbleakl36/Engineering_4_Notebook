@@ -195,14 +195,17 @@ file:///C:/Users/jbleakl36/Pictures/Camera%20Roll/WIN_20230927_09_40_43_Pro.mp4
 
 ### Wiring
 
-
-
-
+![Crash Acc 3](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/cd48722a-fea0-430b-9610-d004ca56a74f)
 
 ### Code
 
-### Reflection
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/crashavoidance3
 
+### Reflection
+Wiring up the OLED screen proved to be challenging to say the least. I had to utilize rows so that multiple devices
+could utilize Ground, 3v3, etc. The coding proved to be a fair bit simpiler than the wiring. Any issues I had were
+often very surface level, for example I put my i2c commands before me establsihing the i2c in the code itself. When
+I went to record myself, the OLED screen turned off. But thankfully I just reset the code and it did just fine.
 
 
 ##  Crash Avoidance Part 1
