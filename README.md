@@ -163,32 +163,40 @@ The task was simple. The assingment told me everything I needed to know. I didn'
 them. The hardest part was finding a method to loop the code. I did a simple x = 3, while x == 3 loop, it did the job well.
 
 
-##  Crash Avoidance Part 1
+##  Crash Avoidance Part 2
 
 ### Assignment Description
-
+We were tasked to add an LED that would turn on once the "Helicopter"/Breadboard was turned 90 degrees.
 ### Evidence
 
-
+https://cvilleschools.instructure.com/courses/40384/assignments/539319/submissions/4669?preview=1&rand=266401#
 
 ### Wiring
 
+![Crash Acc 2](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/8afc3c85-133c-4a48-a808-55c0af5ce57c)
 
 ### Code
 
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/carshavoidance2
+
 ### Reflection
+This is the first assignment where you don't pug the pico to the computer. I found lots of trouble with my LED,
+I put it in the wrong way putting ground into power and such. I learned how to use f strings which boaded well for
+me. It was exciting to see this project finally work! We fixed other wiring issues that plauged my progress too.
 
-
-
-##  Crash Avoidance Part 1
+##  Crash Avoidance Part 3
 
 ### Assignment Description
-
+We were tasked with utilizing an OLED screen to broadcast the 3 various x, y, and z coordinates. Values are required
+to be rounded to only 3 decimals.
 ### Evidence
 
-
+file:///C:/Users/jbleakl36/Pictures/Camera%20Roll/WIN_20230927_09_40_43_Pro.mp4
 
 ### Wiring
+
+
+
 
 
 ### Code
