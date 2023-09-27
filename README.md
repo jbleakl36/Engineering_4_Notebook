@@ -191,8 +191,7 @@ We were tasked with utilizing an OLED screen to broadcast the 3 various x, y, an
 to be rounded to only 3 decimals.
 ### Evidence
 
-https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/12bd1c43-a30f-4184-8b16-420c3b516111
-
+file:///C:/Users/jbleakl36/Pictures/Camera%20Roll/WIN_20230927_09_40_43_Pro.mp4
 
 ### Wiring
 
