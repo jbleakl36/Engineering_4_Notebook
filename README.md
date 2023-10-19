@@ -208,58 +208,65 @@ often very surface level, for example I put my i2c commands before me establsihi
 I went to record myself, the OLED screen turned off. But thankfully I just reset the code and it did just fine.
 
 
-##  Crash Avoidance Part 1
+## FEA Part 1 Beam Design
 
 ### Assignment Description
-
-### Evidence
-
-
-
-### Wiring
-
-
-### Code
-
-### Reflection
-
-
-
-##  Crash Avoidance Part 1
-
-### Assignment Description
-
-### Evidence
-
-
-
-### Wiring
-
-
-### Code
-
-### Reflection
-
-
-## Onshape_Assignment_Template
-
-### Assignment Description
-
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+The goal of this assignment is to design a beam to hold as much weight as possible. For the beam to fail it must either break or bend more than 35mm.
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+https://cvilleschools.onshape.com/documents/36bd5e50c7a6146a0cebf6d6/w/d8e6fba93b7971cd2c68e99e/e/3f8cd64cd747f252c1e7fb31
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![272595712-ce85f07b-a939-41c9-9d8b-80b9c6b16c88](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/57be8b0e-a6ec-4009-bdd6-49476690b388)
+
 
 ### Reflection
+![272001760-be683c92-1139-4a28-bc43-c720530f2ead](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/edbb01e6-09b3-4171-b9a2-85cbefb91681)
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+In our first design shown above, the main problem we ran into was overhang. Overhang is when the printer does not have any surface to print onto. To fix this, we had to add supports at 45 degrees under the overhang shown below:
 
-&nbsp;
+![272586385-918b776b-4988-4ba2-9ccc-fd73b1ada283](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/c3fbd031-e15d-4cb3-a4df-6cf990c29da5)
+
+Additionally, the project was breaching the weight limit so we added a lot of fillets to reconcile that.
+
+## FEA Part 3 Analysis
+
+### Assignment Description
+The goal of this assignment is to run a simulation in Onshape to find the weak points of the beam
+### Part Link
+https://cvilleschools.onshape.com/documents/36bd5e50c7a6146a0cebf6d6/w/d8e6fba93b7971cd2c68e99e/e/3f8cd64cd747f252c1e7fb31
+### Part Image
+
+![273233574-ec073d91-6b3a-4ec3-a803-6408e5517261](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/bbd75ed4-0470-419f-b8d0-dc79e18b8365)
+Displacement Plot
+
+![272938167-9419c4c3-0af8-4bd8-9a25-76607ef6002a](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/2a741735-051c-4e7b-9301-90e4c30876f4)
+Stress Plot
+
+### Reflection
+The side closer to the holder faces the most stress and the side away from it faces almost none. To fix this, we will remove some of the weight on the other side so that we can add more structure to the weaker side.
+
+## FEA Part 4 Interative Design
+
+### Assignment Description
+The goal of this assignment was to use the information from the simulation to design a better beam.
+
+
+### Part Link
+https://cvilleschools.onshape.com/documents/36bd5e50c7a6146a0cebf6d6/w/d8e6fba93b7971cd2c68e99e/e/3f8cd64cd747f252c1e7fb31
+### Part Image
+![274287195-8381824b-0b3a-4ff1-8303-b71e8b79694c](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/49343721-9b88-48c4-8397-7143c4dd1b4d)
+
+### Reflection
+To fix the problems we had we added a piece that would support the beam underneath the holder.
+![274288843-eb4a3234-b0af-4ad6-af5d-e8657807711e](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/2437d50e-ff8c-4adb-9502-d7bf1a766a0f)
+We also thickened the part shown below that was thin and weak in our first design.
+![274289677-31c1bad6-2b97-4eaa-bac3-eec7c41a23f0](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/22ab408c-af2c-4aa1-a665-0c0d0796c78e)
+To keep the weight under 13 grams we added more fillets to the stronger side of the beam. Before the changes, the maximum displacement was 65.51 and the max stress was 10,025 psi. After the changes the displacement got slightly worse to 71.59 but the max stress it could take went up to 16,340.
+
+
 
 ## Media Test
 
