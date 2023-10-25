@@ -267,6 +267,24 @@ We also thickened the part shown below that was thin and weak in our first desig
 To keep the weight under 13 grams we added more fillets to the stronger side of the beam. Before the changes, the maximum displacement was 65.51 and the max stress was 10,025 psi. After the changes the displacement got slightly worse to 71.59 but the max stress it could take went up to 16,340.
 
 
+## Landing Area Part 1
+
+### Assingment Description
+We were tasked with creating code that will properly take inputs for coordinates of a triangle and caculating the area of that tringle made by those inputs. Additionally if there was a error, we would send the user 
+back to the start of the process.
+### Evidence
+
+### Wiring
+None for the assingment
+### Code
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/LandingArea1.py
+### Reflection
+
+
+
+
+
+
 
 ## Media Test
 
