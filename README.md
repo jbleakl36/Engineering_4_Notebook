@@ -291,6 +291,23 @@ But slowly I began to understand each function (some more than others). The bigg
 It really cleared the way for this assingment, and with some additional help from Mr. Miller himself I was able to succeed. 
 
 
+## Landing Area Part 2
+
+### Assingment Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
+
+
+
+
+
+
 
 
 
