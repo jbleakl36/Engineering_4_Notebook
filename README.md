@@ -225,7 +225,8 @@ https://cvilleschools.onshape.com/documents/36bd5e50c7a6146a0cebf6d6/w/d8e6fba93
 ### Reflection
 ![272001760-be683c92-1139-4a28-bc43-c720530f2ead](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/edbb01e6-09b3-4171-b9a2-85cbefb91681)
 
-In our first design shown above, the main problem we ran into was overhang. Overhang is when the printer does not have any surface to print onto. To fix this, we had to add supports at 45 degrees under the overhang shown below:
+In our first design shown above, the main problem we ran into was overhang. Overhang is when the printer does not have any surface to print onto. 
+To fix this, we had to add supports at 45 degrees under the overhang shown below:
 
 ![272586385-918b776b-4988-4ba2-9ccc-fd73b1ada283](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/c3fbd031-e15d-4cb3-a4df-6cf990c29da5)
 
@@ -246,7 +247,8 @@ Displacement Plot
 Stress Plot
 
 ### Reflection
-The side closer to the holder faces the most stress and the side away from it faces almost none. To fix this, we will remove some of the weight on the other side so that we can add more structure to the weaker side.
+The side closer to the holder faces the most stress and the side away from it faces almost none. 
+To fix this, we will remove some of the weight on the other side so that we can add more structure to the weaker side.
 
 ## FEA Part 4 Interative Design
 
@@ -264,7 +266,32 @@ To fix the problems we had we added a piece that would support the beam undernea
 ![274288843-eb4a3234-b0af-4ad6-af5d-e8657807711e](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/2437d50e-ff8c-4adb-9502-d7bf1a766a0f)
 We also thickened the part shown below that was thin and weak in our first design.
 ![274289677-31c1bad6-2b97-4eaa-bac3-eec7c41a23f0](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/22ab408c-af2c-4aa1-a665-0c0d0796c78e)
-To keep the weight under 13 grams we added more fillets to the stronger side of the beam. Before the changes, the maximum displacement was 65.51 and the max stress was 10,025 psi. After the changes the displacement got slightly worse to 71.59 but the max stress it could take went up to 16,340.
+To keep the weight under 13 grams we added more fillets to the stronger side of the beam. Before the changes, 
+the maximum displacement was 65.51 and the max stress was 10,025 psi. After the changes the displacement got slightly worse to 71.59 but the max stress it could take went up to 16,340.
+
+
+## Landing Area Part 1
+
+### Assingment Description
+We were tasked with creating code that will properly take inputs for coordinates of a triangle and caculating the area of that tringle made by those inputs. 
+Additionally if there was a error, we would send the user back to the start of the process.
+### Evidence
+
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/90b39e0a-5be7-4a7a-b98e-d0301a4c1599
+
+
+### Wiring
+None for the assingment
+### Code
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/LandingArea1.py
+### Reflection
+At first I was overwhelmed by this assingment. There were so many new python functions to implement, I didn't even know where to begin.
+But slowly I began to understand each function (some more than others). The biggest help for me was Mr. Millers outline for the code.
+It really cleared the way for this assingment, and with some additional help from Mr. Miller himself I was able to succeed. 
+
+
+
 
 
 
