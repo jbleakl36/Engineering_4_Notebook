@@ -294,13 +294,17 @@ It really cleared the way for this assingment, and with some additional help fro
 ## Landing Area Part 2
 
 ### Assingment Description
-
+We were tasked with adding a OLED screen to broadcast the triangle created by the inputs and the area it boasts.
 ### Evidence
+
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/f50cf949-e1b3-40e5-90e0-5dbd4b3bc1e4
+
 
 ### Wiring
 
 ### Code
-
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/LandingArea2.py
 ### Reflection
 
 
