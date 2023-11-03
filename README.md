@@ -302,11 +302,14 @@ https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/f50cf949-e1
 
 
 ### Wiring
+![Triange](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/3a69f8dd-8d62-477c-8ac4-14bdc66be0ec)
 
 ### Code
 https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/LandingArea2.py
 ### Reflection
-
+This assingment was  a challange for me. Wiring up the OLED was simple enough due to the fact I documeted the last time
+I wired up an OLED. There was a lot of set up code needed to properly run the OLED. Despite most of it was copied over from 
+crashavoidance3, remembering what everything did proved to be a challenge. It was a good mental exercise when it came to constructing the code and remember make sure to establish your variables!
 
 
 
