@@ -312,6 +312,62 @@ I wired up an OLED. There was a lot of set up code needed to properly run the OL
 crashavoidance3, remembering what everything did proved to be a challenge. It was a good mental exercise when it came to constructing the code and remember make sure to establish your variables!
 
 
+## Morse Code Part 1
+
+### Assingment Description
+We were tasked with reciving a user input and translating it into morse code.
+### Evidence
+
+### Wiring
+No wiring this assingment
+### Code
+
+### Reflection
+
+
+
+## Morse Code Part 2
+
+### Assingment Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
+
+
+
+## Data Part 1
+
+### Assingment Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
