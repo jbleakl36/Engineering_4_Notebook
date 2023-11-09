@@ -294,6 +294,41 @@ It really cleared the way for this assingment, and with some additional help fro
 ## Landing Area Part 2
 
 ### Assingment Description
+We were tasked with adding a OLED screen to broadcast the triangle created by the inputs and the area it boasts.
+### Evidence
+
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/f50cf949-e1b3-40e5-90e0-5dbd4b3bc1e4
+
+
+### Wiring
+![Triange](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/3a69f8dd-8d62-477c-8ac4-14bdc66be0ec)
+
+### Code
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/LandingArea2.py
+### Reflection
+This assingment was  a challange for me. Wiring up the OLED was simple enough due to the fact I documeted the last time
+I wired up an OLED. There was a lot of set up code needed to properly run the OLED. Despite most of it was copied over from 
+crashavoidance3, remembering what everything did proved to be a challenge. It was a good mental exercise when it came to constructing the code and remember make sure to establish your variables!
+
+
+## Morse Code Part 1
+
+### Assingment Description
+We were tasked with reciving a user input and translating it into morse code.
+### Evidence
+
+### Wiring
+No wiring this assingment
+### Code
+
+### Reflection
+
+
+
+## Morse Code Part 2
+
+### Assingment Description
 
 ### Evidence
 
@@ -302,6 +337,34 @@ It really cleared the way for this assingment, and with some additional help fro
 ### Code
 
 ### Reflection
+
+
+
+## Data Part 1
+
+### Assingment Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
