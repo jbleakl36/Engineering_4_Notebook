@@ -318,12 +318,19 @@ crashavoidance3, remembering what everything did proved to be a challenge. It wa
 We were tasked with reciving a user input and translating it into morse code.
 ### Evidence
 
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/2fab82d2-f339-4b64-96a1-18dfc50e3b00
+
+
 ### Wiring
 No wiring this assingment
 ### Code
-
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/morsecode1
 ### Reflection
-
+This assingment had a lot of problems that sprouted up. I learned how python libraries worked which provided a lot of help
+with constructing the code. There were a handful of things I didn't know, like how to make the text stay in one horizontal
+line. Mr. Miller helped out a lot and showed me how to go about coding this assignment. The code was simple but the process
+was complicated.
 
 
 ## Morse Code Part 2
@@ -341,6 +348,19 @@ No wiring this assingment
 
 
 ## Data Part 1
+
+### Assingment Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
+
+
+## Data Part 2
 
 ### Assingment Description
 
