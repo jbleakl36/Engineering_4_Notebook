@@ -1,0 +1,38 @@
+# Dictionary representing the morse code chart
+MORSE_CODE = { 'A':'.-', 'B':'-...',
+    'C':'-.-.', 'D':'-..', 'E':'.',
+    'F':'..-.', 'G':'--.', 'H':'....',
+    'I':'..', 'J':'.---', 'K':'-.-',
+    'L':'.-..', 'M':'--', 'N':'-.',
+    'O':'---', 'P':'.--.', 'Q':'--.-',
+    'R':'.-.', 'S':'...', 'T':'-',
+    'U':'..-', 'V':'...-', 'W':'.--',
+    'X':'-..-', 'Y':'-.--', 'Z':'--..',
+    '1':'.----', '2':'..---', '3':'...--',
+    '4':'....-', '5':'.....', '6':'-....',
+    '7':'--...', '8':'---..', '9':'----.',
+    '0':'-----', ', ':'--..--', '.':'.-.-.-',
+    '?':'..--..', '/':'-..-.', '-':'-....-',
+    '(':'-.--.', ')':'-.--.-', ' ':'/'}
+
+
+
+translated_string = ""
+while True:
+    translated_string= "" # Ends the last phrase
+    myinput = input("Enter Morse Code Message, or enter -q to quit:  ")
+    if "-q" in myinput:
+            break # this is to signify the user quit out
+
+    uppercase_input = myinput.upper() #making the input uppercase
+    
+    for letter in uppercase_input:
+	# use MORSE_CODE[letter] here to translate from input into morse code
+        
+        MORSE_CODE[letter]
+       
+       
+        translated_string = translated_string + " " + f"{MORSE_CODE[letter]}" # keeps the letters on one line 
+        
+
+    print(translated_string) # your translated message
