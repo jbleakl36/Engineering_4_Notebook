@@ -1,0 +1,80 @@
+# type:ignore
+import digitalio
+import board
+import time
+RedLED = digitalio.DigitalInOut(board.GP1) # Confirmation
+RedLED.direction = digitalio.Direction.OUTPUT # Led is activated
+
+# The Morse code timing rules we will use for signaling are: 
+# a dot (.) lasts for 1/4 second. a dash (-) lasts for 3/4 seconds. 
+# the space between dots and dashes that are part of the same letter is 1/4 second.
+# space between letters is 3/4 seconds
+# space between words is 1+3/4 seconds
+
+modifier = 0.25
+dot_time = 1*modifier
+dash_time = 3*modifier
+between_taps = 1*modifier
+between_letters = 3*modifier
+between_words = 7*modifier
+
+# Dictionary representing the morse code chart
+MORSE_CODE = { 'A':'.-', 'B':'-...',
+    'C':'-.-.', 'D':'-..', 'E':'.',
+    'F':'..-.', 'G':'--.', 'H':'....',
+    'I':'..', 'J':'.---', 'K':'-.-',
+    'L':'.-..', 'M':'--', 'N':'-.',
+    'O':'---', 'P':'.--.', 'Q':'--.-',
+    'R':'.-.', 'S':'...', 'T':'-',
+    'U':'..-', 'V':'...-', 'W':'.--',
+    'X':'-..-', 'Y':'-.--', 'Z':'--..',
+    '1':'.----', '2':'..---', '3':'...--',
+    '4':'....-', '5':'.....', '6':'-....',
+    '7':'--...', '8':'---..', '9':'----.',
+    '0':'-----', ', ':'--..--', '.':'.-.-.-',
+    '?':'..--..', '/':'-..-.', '-':'-....-',
+    '(':'-.--.', ')':'-.--.-', ' ':'/'}
+
+
+
+translated_string = ""
+while True:
+    translated_string= "" # Ends the last phrase
+    myinput = input("Enter Morse Code Message, or enter -q to quit:  ")
+    if "-q" in myinput:
+            break # this is to signify the user quit out
+
+    uppercase_input = myinput.upper() #making the input uppercase
+    
+    for letter in uppercase_input:
+	# use MORSE_CODE[letter] here to translate from input into morse code
+        
+        MORSE_CODE[letter]
+       
+       
+        translated_string = translated_string + " " + f"{MORSE_CODE[letter]}" # keeps the letters on one line 
+    
+    print(translated_string) # your translated message
+
+    for letter in translated_string:
+    
+        if letter == ".":
+            RedLED.value = True
+            time.sleep(dot_time)
+            RedLED.value = False
+        if letter == "-":
+            RedLED.value = True
+            time.sleep(dash_time) # All of these establish how long the LED should be on
+            RedLED.value = False
+        if letter == " ":
+            time.sleep(between_letters)
+        if letter == "/":
+            time.sleep(between_words)
+        time.sleep(between_taps)
+    
+
+
+
+
+
+
