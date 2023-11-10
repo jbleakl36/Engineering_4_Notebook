@@ -336,15 +336,21 @@ was complicated.
 ## Morse Code Part 2
 
 ### Assingment Description
-
+In addition to everything in part one, we were to add an LED that transmitted the morse code.
 ### Evidence
 
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/de519652-6666-42fa-afca-b55e6eaffe7e
+
+
 ### Wiring
+![I love LEDs!!](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/923bcb38-accc-48cf-92d0-e87250049a15)
 
 ### Code
-
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/morsecode2
 ### Reflection
-
+This assingment was far easier than the previous. But one challange I faced was that I implemented a piece of code
+at the end that was full of errors. But bsides that the transistion was smooth and satisfying.
 
 
 ## Data Part 1
