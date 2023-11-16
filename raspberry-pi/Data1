@@ -22,7 +22,7 @@ while True:
     x_accel = mpu.acceleration[0] # each acceleration is saved as a value
     y_accel = mpu.acceleration[1]
     z_accel = mpu.acceleration[2]
-    datalog.write(f"Time: {elapsed_time} X:{mpu.acceleration[0]:.3f} Y:{mpu.acceleration[1]:.3f} Z:{mpu.acceleration[2]:.3f} Tilt value: {tilt}\n")
+    datalog.write(f"{elapsed_time}, {mpu.acceleration[0]:.3f}, {mpu.acceleration[1]:.3f}, {mpu.acceleration[2]:.3f}, {tilt}\n")
     # add a short on/off cycle for your onboard LED
     datalog.flush()
     time.sleep(0.5)
