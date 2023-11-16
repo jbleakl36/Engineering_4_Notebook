@@ -1,0 +1,36 @@
+#type:ignore
+import time
+import adafruit_mpu6050 # importing various programs
+import busio
+import board
+import digitalio
+sda_pin = (board.GP14) #Assinging the location of the pin
+scl_pin = (board.GP15)
+i2c = busio.I2C(scl_pin, sda_pin) # establishing i2c
+mpu = adafruit_mpu6050.MPU6050(i2c) # connecting i2c to pico
+RedLED = digitalio.DigitalInOut(board.GP2) # Confirmation
+RedLED.direction = digitalio.Direction.OUTPUT # Led is activated
+RedLED.value = False
+
+with open("/data.csv", "a") as datalog:
+
+while True:
+    RedLED.value = True
+    time.sleep(.1)
+    RedLED.value = False
+    elapsed_time = time.monotonic()# save time to a variable 
+    x_accel = mpu.acceleration[0] # each acceleration is saved as a value
+    y_accel = mpu.acceleration[1]
+    z_accel = mpu.acceleration[2]
+    datalog.write(f"Time: {elapsed_time} X:{mpu.acceleration[0]:.3f} Y:{mpu.acceleration[1]:.3f} Z:{mpu.acceleration[2]:.3f} Tilt value: {tilt}\n")
+    # add a short on/off cycle for your onboard LED
+    datalog.flush()
+    time.sleep(0.5)
+    if mpu.acceleration[2] < 1 and mpu.acceleration[2] > -1:
+        RedLED.value = True # Tilted
+        tilt=1
+    else:
+            if not mpu.acceleration[2] < 1 and mpu.acceleration[2] > -1:
+                RedLED.value = False
+                tilt = 0 # Not Tilted
+                
