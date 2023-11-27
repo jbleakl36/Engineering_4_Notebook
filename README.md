@@ -356,15 +356,18 @@ at the end that was full of errors. But bsides that the transistion was smooth a
 ## Data Part 1
 
 ### Assingment Description
-
+We were tasked with retiriving data from an accelorometer while the pico was unplugged. Then after, we were to make 
+a chart out of it.
 ### Evidence
 
 ### Wiring
 
 ### Code
-
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/Data1
 ### Reflection
 
+### Data sheet
+https://docs.google.com/spreadsheets/d/1oJVg3qEEPDu1-ix9ZAjdZnZz1_AIQLlBUEXovXjmj0g/edit#gid=0
 
 ## Data Part 2
 
