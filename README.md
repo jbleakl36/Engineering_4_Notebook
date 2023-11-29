@@ -365,7 +365,8 @@ https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/d29008ec-58
 
 
 ### Wiring
-![The one](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/2a059dde-943b-4af5-ad1e-d076a1d4e82d)
+![The one](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/17e5cc04-43a7-4cb4-ad19-cb0236ecd3cc)
+
 
 ### Code
 https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/Data1
