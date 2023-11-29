@@ -381,15 +381,15 @@ https://docs.google.com/spreadsheets/d/1oJVg3qEEPDu1-ix9ZAjdZnZz1_AIQLlBUEXovXjm
 ## Data Part 2
 
 ### Assingment Description
-
+We were tasked with creating data charts off the data we collected in the previous assingment
 ### Evidence
-
-### Wiring
-
-### Code
+![X, Y, and Z acceleration of Joshua's Pico!](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/839c80c5-5c8e-4e28-88d6-a3ed741767ea)
 
 ### Reflection
-
+This was quite the quick assignment. I had little to no trouble with it! The instructions are clear and easy to follow and Google sheets is easy to use! 
+Make sure to follow the instructions or else it may become more difficult than expected.
+### Link to Google sheets file
+https://docs.google.com/spreadsheets/d/1oJVg3qEEPDu1-ix9ZAjdZnZz1_AIQLlBUEXovXjmj0g/edit#gid=0
 
 
 
