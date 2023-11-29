@@ -360,11 +360,18 @@ We were tasked with retiriving data from an accelorometer while the pico was unp
 a chart out of it.
 ### Evidence
 
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/d29008ec-5834-4f93-beaf-9d6e4a16d2a4
+
+
 ### Wiring
 
 ### Code
 https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/Data1
 ### Reflection
+This assingment was the trickiest one for me. Implementing the new Data and Code modes proved to be complicated. I found difficulty with switching between the two modes and how
+the code mode can recieve changes while data cannot. Make sure to look into your files to find the data sheet. Ctrl + A will select the entire sheet. Lastly, I had some more trouble with
+getting the spreadsheet, I recorded a lot of data but it didn't get ported to the computer. But at the end of the day it is finished and that is all that matters.
 
 ### Data sheet
 https://docs.google.com/spreadsheets/d/1oJVg3qEEPDu1-ix9ZAjdZnZz1_AIQLlBUEXovXjmj0g/edit#gid=0
