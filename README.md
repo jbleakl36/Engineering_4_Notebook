@@ -356,28 +356,40 @@ at the end that was full of errors. But bsides that the transistion was smooth a
 ## Data Part 1
 
 ### Assingment Description
-
+We were tasked with retiriving data from an accelorometer while the pico was unplugged. Then after, we were to make 
+a chart out of it.
 ### Evidence
 
+
+https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/d29008ec-5834-4f93-beaf-9d6e4a16d2a4
+
+
 ### Wiring
+![The one](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/17e5cc04-43a7-4cb4-ad19-cb0236ecd3cc)
+
 
 ### Code
-
+https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/Data1
 ### Reflection
+This assingment was the trickiest one for me. Implementing the new Data and Code modes proved to be complicated. I found difficulty with switching between the two modes and how
+the code mode can recieve changes while data cannot. Make sure to look into your files to find the data sheet. Ctrl + A will select the entire sheet. Lastly, I had some more trouble with
+getting the spreadsheet, I recorded a lot of data but it didn't get ported to the computer. But at the end of the day it is finished and that is all that matters.
 
+### Data sheet
+https://docs.google.com/spreadsheets/d/1oJVg3qEEPDu1-ix9ZAjdZnZz1_AIQLlBUEXovXjmj0g/edit#gid=0
 
 ## Data Part 2
 
 ### Assingment Description
-
+We were tasked with creating data charts off the data we collected in the previous assingment
 ### Evidence
-
-### Wiring
-
-### Code
+![X, Y, and Z acceleration of Joshua's Pico!](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/839c80c5-5c8e-4e28-88d6-a3ed741767ea)
 
 ### Reflection
-
+This was quite the quick assignment. I had little to no trouble with it! The instructions are clear and easy to follow and Google sheets is easy to use! 
+Make sure to follow the instructions or else it may become more difficult than expected.
+### Link to Google sheets file
+https://docs.google.com/spreadsheets/d/1oJVg3qEEPDu1-ix9ZAjdZnZz1_AIQLlBUEXovXjmj0g/edit#gid=0
 
 
 
