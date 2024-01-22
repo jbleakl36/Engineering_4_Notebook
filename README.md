@@ -349,8 +349,7 @@ https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/de519652-66
 ### Code
 https://github.com/jbleakl36/Engineering_4_Notebook/blob/main/raspberry-pi/morsecode2
 ### Reflection
-This assingment was far easier than the previous. But one challange I faced was that I implemented a piece of code
-at the end that was full of errors. But bsides that the transistion was smooth and satisfying.
+This assingment was far easier than the previous for the workload was way less. But one challange I faced was that I implemented a piece of code at the end that was full of various errors. Turns out I just forgot how the morse code library works. But besides that the transistion was smooth and satisfying.
 
 
 ## Data Part 1
@@ -386,7 +385,7 @@ We were tasked with creating data charts off the data we collected in the previo
 ![X, Y, and Z acceleration of Joshua's Pico!](https://github.com/jbleakl36/Engineering_4_Notebook/assets/112979207/839c80c5-5c8e-4e28-88d6-a3ed741767ea)
 
 ### Reflection
-This was quite the quick assignment. I had little to no trouble with it! The instructions are clear and easy to follow and Google sheets is easy to use! 
+This was quite the quick assignment. I had little to no trouble with it! The instructions are clear and easy to follow and Google sheets is easy to use! Just follow the instructions and you will succeed.
 Make sure to follow the instructions or else it may become more difficult than expected.
 ### Link to Google sheets file
 https://docs.google.com/spreadsheets/d/1oJVg3qEEPDu1-ix9ZAjdZnZz1_AIQLlBUEXovXjmj0g/edit#gid=0
